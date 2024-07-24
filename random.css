@@ -1,0 +1,93 @@
+body{
+    background-image: url(aurora-borealis-1032517_640.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   padding-top: 200Px;
+   justify-content: center;
+  
+
+}
+
+
+
+.quote-container{
+    margin: auto;
+    align-content: center;
+    width: 60%;
+    max-height: 80hv;
+    padding: 10px;
+    padding-bottom: 20px;
+    border: 1px rgba(255, 255, 255, 0.31);
+    background-color: rgba(255, 255, 255, 0.31);
+    border-radius: 10px;
+    color: white;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.quote-header{
+    text-align: center;
+}
+
+.btn{
+    display: flex;
+    margin-top: 100px;
+   justify-content: space-between;
+   
+  
+}
+
+.left-btn:hover{
+    position: relative;
+    background-color: red;
+    color: black;
+    transform: scale(1.2);
+    box-shadow: 0 4px 8px rgba(120, 18, 175, 0.281);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+
+
+.right-btn:hover{
+    background-color: red;
+    color: black;
+    transform: scale(1.2);
+    box-shadow: 0 4px 8px rgba(120, 18, 175, 0.281);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+}
+
+.btn .left-btn{
+    width: 20%;
+    padding: 5px;
+    margin-left: 20px;
+    border: 0;
+    box-shadow: 5px 5px 5px rgba(183, 8, 206, 0.5), -5px -5px 5px rgba(114, 12, 132, 0.5);
+    font-size: 17px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.btn .right-btn{
+    width: 20%;
+    padding: 5px;
+    box-shadow: 5px 5px 5px rgba(183, 8, 206, 0.5), -5px -5px 5px rgba(114, 12, 132, 0.5);
+    font-size: 17px;
+    margin-right: 20px;
+    border: 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
